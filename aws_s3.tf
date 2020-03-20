@@ -11,7 +11,6 @@ resource "aws_s3_bucket" "live-michel-dance" {
   }
 
   website {
-    index_document = "index.html"
-    error_document = "index.html"
+    redirect_all_requests_to = "https://zoom.us/j/7532360569"
   }
 }
