@@ -11,3 +11,5 @@ That's great, but if you are cheap like me, you would simply not pay for it and
 create your own better vanity URL.
 
 This repo contains all the Terraform code to spin up all the infrastructure required to do this in AWS for cheaper.
+
+The architecture is described at: [architecture.png](architecture.png)
