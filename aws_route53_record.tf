@@ -1,7 +1,7 @@
 resource "aws_route53_record" "live-michel-dance" {
   zone_id = "Z1IUD2R4RK3VET"
   name    = "live.michel.dance"
-  type    = "A"
+  type    = "CNAMEgi"
 
   alias {
     name                   = aws_s3_bucket.live-michel-dance.website_endpoint
