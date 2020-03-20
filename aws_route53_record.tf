@@ -5,7 +5,7 @@ resource "aws_route53_record" "live-michel-dance" {
 
   alias {
     name                   = aws_s3_bucket.live-michel-dance.bucket_domain_name
-    zone_id                = aws_s3_bucket.live-michel-dance.hosted_zone_id
+    zone_id                = "Z1IUD2R4RK3VET"
     evaluate_target_health = false
   }
 }
