@@ -13,3 +13,8 @@ create your own better vanity URL.
 This repo contains all the Terraform code to spin up all the infrastructure required to do this in AWS for cheaper.
 
 The architecture is described at: [architecture.png](architecture.png)
+
+
+## TODO
+
+setup Cloudfront distribution to cache requests
